@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    tools:context=".Theloaideilta">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/sharp"
+         android:orientation="vertical"
+         android:padding="20dp">
+
+         <ImageView
+             android:id="@+id/imageView"
+             android:layout_width="291dp"
+             android:layout_height="70dp"
+             android:layout_gravity="center"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             app:srcCompat="@drawable/logo222" />
+
+         <TextView
+             android:id="@+id/text"
+             android:layout_width="274dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:paddingTop="3dp"
+             android:paddingBottom="3dp"
+             android:text="SỬA THỂ LOẠI"
+             android:layout_gravity="center"
+             android:textAlignment="center"
+             android:textColor="?attr/colorError"
+             android:textSize="24sp" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Mã thể loại:"
+             />
+         <EditText
+             android:id="@+id/edMatheloai"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Tên thể loại:"
+             />
+         <EditText
+             android:id="@+id/edTentheloai"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Mô tả:"
+             />
+         <EditText
+             android:id="@+id/edMota"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Vị trí:"
+             />
+         <EditText
+             android:id="@+id/edVitri"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:weightSum="2">
+             <Button
+                 android:id="@+id/btnUpda"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:onClick="updateU"
+                 android:layout_marginRight="5dp"
+                 android:text="Cập nhật" />
+             <Button
+                 android:id="@+id/btnCance"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:layout_marginLeft="5dp"
+                 android:onClick="Huy"
+                 android:text="Quay lại" />
+         </LinearLayout>
+
+     </LinearLayout>
+
+
+</LinearLayout>

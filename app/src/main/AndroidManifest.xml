@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ps08209duanmau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bookicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Themhoadon"></activity>
+        <activity android:name=".Hoadondeilta" />
+        <activity android:name=".Hoadonchitiet" />
+        <activity android:name=".Sachdeilta" />
+        <activity android:name=".Themsach" />
+        <activity android:name=".Theloaideilta" />
+        <activity android:name=".Theloai" />
+        <activity android:name=".ListTheloai" />
+        <activity android:name=".Changerpass" />
+        <activity android:name=".Nguoidungdeilta" />
+        <activity android:name=".Themnguoidung" />
+        <activity android:name=".Listthongke" />
+        <activity android:name=".Listbanchay" />
+        <activity android:name=".ListHoadon" />
+        <activity android:name=".ListSach" />
+        <activity android:name=".Listnguoidung" />
+        <activity android:name=".GiaoDienActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".ManhinhChao">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
